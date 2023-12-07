@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+header {
+  min-height: 30%;
+  width: 100%;
+  box-shadow: inset 10px 5px 13px 15px rgba(8, 2, 18, 0.724);
+}
+body {
+  background-color: black;
+  color: #2fac2f;
+  box-shadow: inset 13px 5px 20px 15px rgba(8, 79, 8, 0.724);
+}
+header h1 {
+  /* display :flex; */
+  text-align: center;
+  color: #1b931b;
+  font-family: 'Bruno Ace', cursive;
+  font-size: 50px;
+}
+header p {
+  /* display :flex; */
+  text-align: center;
+  color: #1b931b;
+  font-family: 'Rubik Pixels', cursive;
+  cursor: blink, 0.9;
+}
+header {
+  border: 2px solid green;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 14px;
+  height: 104px;
+  flex-direction: column;
+  box-shadow: inset 13px 5px 20px 15px rgba(8, 79, 8, 0.724);
+  border: 2px solid rgb(90, 255, 90);
+  width: 70%;
+  margin: 2rem auto;
+}
+#userid {
+  text-align: center;
+  width: 30%;
+  margin: 13px, auto;
+}
+.output_box {
+  display: flex;
+  border: 2px solid green;
+  justify-content: center;
+  min-height: 315px;
+  width: 70%;
+  margin: 10px auto;
+  font-family: 'Bruno Ace', cursive;
+  text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.69);
+}
+.target {
+  text-align: center;
+  padding: 11px 4px;
+  margin-top: 20px;
+  outline: none;
+  border-radius: 8px;
+  width: 25%;
+  margin: 13px auto;
+}
+.button {
+  border-radius: 2rem;
+  background: black;
+  color: green;
+  border: 1px solid green;
+}
+.InteractiveBar-blinkingCursor {
+  /* -webkit-animation: blink .9s infinite; */
+  animation: blink 0.5s infinite;
+  color: #20830c;
+  font-size: 22px;
+  line-height: 0;
+}
